@@ -1,0 +1,102 @@
+.interna_lojas {
+	background: url("../img/lojas/bg_lojas.jpg") no-repeat center;
+	background-size: cover;
+}
+
+/* Mapa */
+
+.tipo_mapa {
+	background: url("../img/lojas/mapa.jpg") no-repeat center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	height: 397px;
+}
+
+.tipo_mapa .leg_mapa {
+	background: #2c211f;
+	float: right;
+	margin: 40px 40px 40px 40px;
+	padding: 40px 30px 40px 40px;
+}
+
+.tipo_mapa .leg_mapa h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #c49358;
+	padding-bottom: 15px;
+}
+
+.tipo_mapa .leg_mapa p {
+	font-size: 18px;
+	font-family: Georgia;
+	color: #c49358;
+	font-weight: bold;
+}
+
+/* Slide */
+
+.bg_slide {
+	width: 100%;
+	background: #2c211f;
+	padding: 40px 0 20px 0;
+}
+
+/* Plugin Slide */
+
+.rslides, .rslides_lojas {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+ }
+
+.rslides, .rslides_lojas li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+ }
+
+.rslides, .rslides_lojas li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+ }
+
+.rslides, .rslides_lojas img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  padding-bottom: 5px;
+ }
+
+.rslides_tabs {
+ 	text-align: center;
+ }
+
+.rslides_tabs li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.rslides_tabs .rslides_here a, .rslides_tabs li a:hover {
+	background: #c49358;
+	color: #c49358;
+}
+
+.rslides_tabs li a {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	color: #fff;
+	border-radius: 20px;
+	overflow: hidden;
+	text-indent: -200px;
+}

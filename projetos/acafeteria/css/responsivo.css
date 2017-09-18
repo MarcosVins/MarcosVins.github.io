@@ -1,0 +1,339 @@
+/*Tablets*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+/* Cafes Home */
+
+.cafes h3 {
+	padding: 15px 0;
+}
+
+.tipo_tradicional .leg_tradicional {
+	background: #2c211f;
+	float: right;
+	margin: 40px 20px 40px 20px;
+	padding: 30px 20px 30px 30px;
+}
+
+.tipo_cappuccino .leg_cappuccino {
+	background: #2c211f;
+	float: left;
+	margin: 40px 20px 40px 20px;
+	padding: 30px 20px 30px 30px;
+}
+
+.tipo_comcanela .leg_comcanela {
+	background: #2c211f;
+	float: right;
+	margin: 40px 20px 40px 20px;
+	padding: 30px 20px 30px 30px;
+}
+
+.tipo_aoleite .leg_aoleite {
+	background: #2c211f;
+	float: left;
+	margin: 40px 20px 40px 20px;
+	padding: 30px 20px 30px 30px;
+}
+
+/* Lojas */
+
+.tipo_mapa .leg_mapa {
+	background: #2c211f;
+	float: right;
+	margin: 40px 20px 40px 20px;
+	padding: 30px 20px 30px 30px;
+}
+
+/* Contato */
+
+.formulario {
+	margin-top: 0;
+}
+
+}
+
+/*Smartphones*/
+@media only screen and (max-width: 767px) {
+
+/* Header */
+
+.header {
+	position: relative;
+}
+
+.header img {
+	margin: 0 auto;
+	margin-bottom: 10px;
+	margin-top: 5px
+}
+
+.header_menu {
+	text-align: center;
+}
+
+.header_menu ul {
+	margin-top: 0px;
+}
+
+.header_menu ul li {
+	display: inline-block;
+	margin: 6px 3px;
+}
+
+.header_menu ul li a {
+	text-decoration: none;
+	border: 3px solid #c49358;
+	color: #c49358;
+	width: 100px;
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 14px;
+	padding: 10px;
+}
+
+.header_menu ul li a:hover {
+	border: 3px solid #fff;
+}
+
+.header_menu ul li a.menu_ativo {
+	border-color: #fff;
+}
+
+/* Introducao */
+
+.intro {
+	background: url("../img/home/bg_mobile.jpg") no-repeat center;
+	margin-top: 0;
+	padding-top: 80px;
+}
+
+.intro h1 {
+	font-size: 46px;
+}
+
+.intro_interna {
+	margin-top: 0;
+}
+
+/* Cafes Home */
+
+.cafes h2 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.cafes ul li {
+	margin-bottom: 20px;
+}
+
+.call {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	margin: 0;
+}
+
+/* Venha Nos Visitar */
+
+.visitar {
+	height: 319px;
+}
+
+.visitar h2{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.visitar .call {
+	margin-top: 40px;
+}
+
+/* Footer */
+
+.footer_contato {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.footer_contato .subtitulo {
+	margin-bottom: 20px;
+}
+
+.footer_contato ul {
+	margin-left: -40px;
+}
+
+.footer_redes {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.footer_redes .subtitulo {
+	margin-bottom: 20px;
+}
+
+.footer_redes ul {
+	padding-left: 0;
+}
+
+.footer_redes img {
+	padding: 0 10px;
+}
+
+.footer_redes ul li {
+	text-align: center;
+	padding-right: 0;
+}
+
+/* Copyright */
+
+.copy {
+	text-align: center;
+	padding: 20px 0;
+	font-size: 13px;
+}
+
+/* Sobre */
+
+.textomenor_sobre {
+	margin-left: 0;
+}
+
+/* Cafes */
+
+.tipo_tradicional {
+	background: url("../img/cafes/bg_tradicional_mobile.jpg") no-repeat center;
+	height: 200px;
+	margin-bottom: 50px;
+}
+
+.tipo_tradicional .leg_tradicional {
+	background: #2c211f;
+	float: right;
+	margin: 200px 0 0 0;
+	padding: 20px 15px 20px 20px;
+}
+
+.tipo_tradicional .leg_tradicional p {
+	font-size: 14px;
+}
+
+.tipo_tradicional .leg_tradicional h2 {
+	font-size: 14px;
+}
+
+.tipo_cappuccino {
+	background: url("../img/cafes/bg_cappuccino_mobile.jpg") no-repeat center;
+	height: 200px;
+	margin-top: 230px;
+}
+
+.tipo_cappuccino .leg_cappuccino {
+	background: #2c211f;
+	float: right;
+	margin: 200px 0 0 0;
+	padding: 20px 15px 20px 20px;
+}
+
+.tipo_cappuccino .leg_cappuccino p {
+	font-size: 14px;
+}
+
+.tipo_cappuccino .leg_cappuccino h2 {
+	font-size: 14px;
+}
+
+.tipo_comcanela {
+	background: url("../img/cafes/bg_comcanela_mobile.jpg") no-repeat center;
+	height: 200px;
+	margin-top: 230px;
+}
+
+.tipo_comcanela .leg_comcanela {
+	background: #2c211f;
+	float: right;
+	margin: 200px 0 0 0;
+	padding: 20px 15px 20px 20px;
+}
+
+.tipo_comcanela .leg_comcanela p {
+	font-size: 14px;
+}
+
+.tipo_comcanela .leg_comcanela h2 {
+	font-size: 14px;
+}
+
+.tipo_aoleite {
+	background: url("../img/cafes/bg_aoleite_mobile.jpg") no-repeat center;
+	height: 200px;
+	margin-top: 230px;
+	margin-bottom: 200px;
+}
+
+.tipo_aoleite .leg_aoleite {
+	background: #2c211f;
+	float: right;
+	margin: 200px 0 0 0;
+	padding: 20px 15px 20px 20px;
+}
+
+.tipo_aoleite .leg_aoleite p {
+	font-size: 14px;
+}
+
+.tipo_aoleite .leg_aoleite h2 {
+	font-size: 14px;
+}
+
+/* Lojas */
+
+.tipo_mapa {
+	background: url("../img/lojas/mapa_mobile.jpg") no-repeat center;
+	margin-top: 30px;
+	margin-bottom: 0;
+	height: 200px;
+}
+
+.tipo_mapa .leg_mapa {
+	background: #2c211f;
+	float: left;
+	margin: 200px 0 30px 0;
+	padding: 20px 15px 20px 20px;
+	display: block;
+}
+
+.tipo_mapa .leg_mapa h2 {
+	font-size: 14px;
+}
+
+.tipo_mapa .leg_mapa p {
+	font-size: 14px;
+}
+
+.bg_slide {
+	clear: both;
+}
+
+/* Contato */
+
+.formulario {
+	margin-top: 0;
+}
+
+.formula {
+	padding-right: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.formulario .formula button {
+	text-align: center;
+}
+
+.formulario_dados {
+	display: none;
+}
+
+}

@@ -1,0 +1,124 @@
+/* Titulo da Pagina */
+
+.interna_cafes {
+	background: url("../img/cafes/bg_cafes.jpg") no-repeat center;
+	background-size: cover;
+}
+
+/* Tipos de Cafés*/
+
+/* Tradicional */
+
+.tipo_tradicional {
+	background: url("../img/cafes/bg_tradicional.jpg") no-repeat center;
+	margin-top: 40px;
+	height: 397px;
+}
+
+.tipo_tradicional .leg_tradicional {
+	background: #2c211f;
+	float: right;
+	margin: 40px 40px 40px 40px;
+	padding: 40px 30px 40px 40px;
+}
+
+.tipo_tradicional .leg_tradicional h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #c49358;
+	padding-bottom: 15px;
+}
+
+.tipo_tradicional .leg_tradicional p {
+	font-size: 18px;
+	font-family: Georgia;
+	color: #c49358;
+	font-weight: bold;
+}
+
+/* Cappuccino */
+
+.tipo_cappuccino {
+	background: url("../img/cafes/bg_cappuccino.jpg") no-repeat center;
+	margin-top: 40px;
+	height: 397px;
+}
+
+.tipo_cappuccino .leg_cappuccino {
+	background: #2c211f;
+	float: left;
+	margin: 40px 40px 40px 40px;
+	padding: 40px 30px 40px 40px;
+}
+
+.tipo_cappuccino .leg_cappuccino h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #c49358;
+	padding-bottom: 15px;
+}
+
+.tipo_cappuccino .leg_cappuccino p {
+	font-size: 18px;
+	font-family: Georgia;
+	color: #c49358;
+	font-weight: bold;
+}
+
+/* Com Canela */
+
+.tipo_comcanela {
+	background: url("../img/cafes/bg_comcanela.jpg") no-repeat center;
+	margin-top: 40px;
+	height: 397px;
+}
+
+.tipo_comcanela .leg_comcanela {
+	background: #2c211f;
+	float: right;
+	margin: 40px 40px 40px 40px;
+	padding: 40px 30px 40px 40px;
+}
+
+.tipo_comcanela .leg_comcanela h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #c49358;
+	padding-bottom: 15px;
+}
+
+.tipo_comcanela .leg_comcanela p {
+	font-size: 18px;
+	font-family: Georgia;
+	color: #c49358;
+	font-weight: bold;
+}
+
+/* Ao Leite */
+
+.tipo_aoleite {
+	background: url("../img/cafes/bg_aoleite.jpg") no-repeat center;
+	margin-top: 40px;
+	height: 397px;
+}
+
+.tipo_aoleite .leg_aoleite {
+	background: #2c211f;
+	float: left;
+	margin: 40px 40px 40px 40px;
+	padding: 40px 30px 40px 40px;
+}
+
+.tipo_aoleite .leg_aoleite h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #c49358;
+	padding-bottom: 15px;
+}
+
+.tipo_aoleite .leg_aoleite p {
+	font-size: 18px;
+	font-family: Georgia;
+	color: #c49358;
+	font-weight: bold;
+}

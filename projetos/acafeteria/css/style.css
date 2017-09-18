@@ -1,0 +1,236 @@
+/* Estilos Gerais */
+
+body {
+		font-family: 'Nunito', sans-serif;
+}
+
+p {
+	font-family: Georgia;
+	font-weight: bold;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.bt {
+	border: 3px solid #c49358;
+	border-radius: 100px;
+	color: #c49358;
+	padding: 10px 31px;
+	font-family: Georgia;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all .5s ease;
+}
+
+.bt:hover {
+	color: #2c211f;
+	border: solid #2c211f;
+}
+
+.subtitulo {
+	font-size: 18px;
+	line-height: 25px;
+	color: #2c211f;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* Header */
+
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #2c211f;
+	padding: 15px 0;
+	z-index: 10;
+}
+
+.header_menu {
+	text-align: right;
+}
+
+.header_menu ul li {
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.header_menu ul li a {
+	text-decoration: none;
+	color: #c49358;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 14px;
+	padding: 10px;
+	transition: all .4s ease;
+}
+
+.header_menu ul li a:hover {
+	color: #fff;
+}
+
+.header_menu ul li a.menu_ativo {
+	color: #fff;
+}
+
+/* Introducao */
+
+.intro {
+	width: 100%;
+	height: 411px;
+	background: url("../img/home/bg.jpg") no-repeat center;
+	margin-top: 110px;
+	text-align: center;
+	padding-top: 113px;
+}
+
+.intro h1 {
+	font-size: 48px;
+	color: #2c211f;
+	text-transform: uppercase;
+}
+
+.quote_externo {
+	margin-bottom: 40px;
+}
+
+.quote_externo p {
+	font-style: italic;
+	color: #2c211f;
+	line-height: 20px;
+	font-size: 14px;
+	margin: 15px 0;
+}
+
+.quote_externo cite {
+	text-transform: uppercase;
+	color: #2c211f;
+	line-height: 20px;
+	font-size: 14px;
+}
+
+/* Intro Interna */
+
+.intro_interna {
+	width: 100%;
+	margin-top: 110px;
+	height: 109px;
+	background-size: cover;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.intro_interna h1 {
+	font-size: 34px;
+	color: #c49358;
+	text-transform: uppercase;
+}
+
+/* Tipos de cafes */
+
+.cafes li {
+	background: #c49358;
+}
+
+.cafes h2 {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.cafes h3 {
+	text-align: center;
+	padding: 15px 86px;
+	color: #2c211f;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.call {
+	text-align: center;
+	clear: both;
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+
+/* Venha Nos Visitar */
+
+.visitar {
+	width: 100%;
+	background: #2c211f;
+}
+
+.visitar h2{
+	color: #c49358;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.visitar .btt:hover {
+	border-color: #fff;
+	color: #fff;
+}
+
+/* Footer */
+
+.footer {
+	width: 100%;
+}
+
+.footer .subtitulo, li {
+	color: #c49358;
+}
+
+.footer li {
+	font-size: 14px;
+}
+
+.footer_contato {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.footer_contato .subtitulo {
+	margin-bottom: 40px;
+}
+
+.footer_contato ul {
+	line-height: 20px;
+	padding-left: 110px;
+}
+
+.footer_redes {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+.footer_redes .subtitulo {
+	margin-bottom: 40px;
+}
+
+.footer_redes ul {
+	padding-left: 50px;
+}
+
+.footer_redes ul li {
+	display: inline-block;
+	padding-right: 50px;
+}
+
+/* Copyright */
+
+.copy {
+	width: 100%;
+	background: #2c211f;
+	padding: 40px 0;
+	color: #c49358;
+	font-size: 14px;
+	font-family: Georgia;
+}

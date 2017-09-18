@@ -1,0 +1,1532 @@
+/* Normalize */
+
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+
+figcaption,
+figure,
+main { /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+
+a {
+  background-color: transparent; /* 1 */
+  -webkit-text-decoration-skip: objects; /* 2 */
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+audio,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+html [type="button"], /* 1 */
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+
+details, /* 1 */
+menu {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Scripting
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+canvas {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in IE.
+ */
+
+template {
+  display: none;
+}
+
+/* Hidden
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10-.
+ */
+
+[hidden] {
+  display: none;
+}
+
+/* Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Grid */
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0px;
+	position: relative;
+}
+
+.container:after, .container:before {
+	content: " ";
+	display: table;
+}
+
+.container:after {
+	clear: both;
+}
+
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-1-3 {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.grid-1 	{width: 40px;}
+.grid-2 	{width: 100px;}
+.grid-3 	{width: 160px;}
+.grid-4 	{width: 220px;}
+.grid-5 	{width: 280px;}
+.grid-6 	{width: 340px;}
+.grid-7 	{width: 400px;}
+.grid-8 	{width: 460px;}
+.grid-9 	{width: 520px;}
+.grid-10 	{width: 580px;}
+.grid-11 	{width: 640px;}
+.grid-12 	{width: 700px;}
+.grid-13 	{width: 760px;}
+.grid-14 	{width: 820px;}
+.grid-15 	{width: 880px;}
+.grid-16 	{width: 940px;}
+.grid-1-3	{width: 300px;}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+.container {
+	width: 768px;
+}
+
+.grid-1 	{width: 28px;}
+.grid-2 	{width: 76px;}
+.grid-3 	{width: 124px;}
+.grid-4 	{width: 172px;}
+.grid-5 	{width: 220px;}
+.grid-6 	{width: 268px;}
+.grid-7 	{width: 316px;}
+.grid-8 	{width: 364px;}
+.grid-9 	{width: 412px;}
+.grid-10 	{width: 460px;}
+.grid-11 	{width: 508px;}
+.grid-12 	{width: 556px;}
+.grid-13 	{width: 604px;}
+.grid-14 	{width: 652px;}
+.grid-15 	{width: 700px;}
+.grid-16 	{width: 748px;}
+.grid-1-3	{width: 236px;}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.container {
+	width: 300px;
+}
+
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-1-3 {
+
+	width: 300px;
+	margin: 0;
+	float: none;
+
+}
+
+}
+
+/* Sobre */
+
+/* Missão */
+
+.interna_sobre {
+	background: url("../img/sobre/bg_sobre.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.textoimg_sobre {
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.bg_equipe {
+	background-color: #2c211f;
+}
+
+.subtitulo_interno {
+	font-family: Georgia;
+	font-size: 18px;
+	font-weight: bold;
+	color: #2c211f;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.textoimg_sobre {
+	text-align: left;
+}
+
+.textoimg_sobre p {
+	font-family: Georgia;
+	font-size: 18px;
+	font-weight: bold;
+	color: #2c211f;
+}
+
+.textomenor_sobre {
+	margin-left: 50px;
+}
+
+/* Imagem Equipe */
+
+.equipe {
+	background: #2c211f;
+	padding: 60px 0;
+}
+
+/* Cafés */
+
+/* Titulo da Pagina */
+
+.interna_cafes {
+	background: url("../img/cafes/bg_cafes.jpg") no-repeat center;
+	background-size: cover;
+}
+
+/* Tipos de Cafés*/
+
+/* Tradicional */
+
+.tipo_tradicional {
+	background: url("../img/cafes/bg_tradicional.jpg") no-repeat center;
+	margin-top: 40px;
+	height: 397px;
+}
+
+.tipo_tradicional .leg_tradicional {
+	background: #2c211f;
+	float: right;
+	margin: 40px 40px 40px 40px;
+	padding: 40px 30px 40px 40px;
+}
+
+.tipo_tradicional .leg_tradicional h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #c49358;
+	padding-bottom: 15px;
+}
+
+.tipo_tradicional .leg_tradicional p {
+	font-size: 18px;
+	font-family: Georgia;
+	color: #c49358;
+	font-weight: bold;
+}
+
+/* Cappuccino */
+
+.tipo_cappuccino {
+	background: url("../img/cafes/bg_cappuccino.jpg") no-repeat center;
+	margin-top: 40px;
+	height: 397px;
+}
+
+.tipo_cappuccino .leg_cappuccino {
+	background: #2c211f;
+	float: left;
+	margin: 40px 40px 40px 40px;
+	padding: 40px 30px 40px 40px;
+}
+
+.tipo_cappuccino .leg_cappuccino h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #c49358;
+	padding-bottom: 15px;
+}
+
+.tipo_cappuccino .leg_cappuccino p {
+	font-size: 18px;
+	font-family: Georgia;
+	color: #c49358;
+	font-weight: bold;
+}
+
+/* Com Canela */
+
+.tipo_comcanela {
+	background: url("../img/cafes/bg_comcanela.jpg") no-repeat center;
+	margin-top: 40px;
+	height: 397px;
+}
+
+.tipo_comcanela .leg_comcanela {
+	background: #2c211f;
+	float: right;
+	margin: 40px 40px 40px 40px;
+	padding: 40px 30px 40px 40px;
+}
+
+.tipo_comcanela .leg_comcanela h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #c49358;
+	padding-bottom: 15px;
+}
+
+.tipo_comcanela .leg_comcanela p {
+	font-size: 18px;
+	font-family: Georgia;
+	color: #c49358;
+	font-weight: bold;
+}
+
+/* Ao Leite */
+
+.tipo_aoleite {
+	background: url("../img/cafes/bg_aoleite.jpg") no-repeat center;
+	margin-top: 40px;
+	height: 397px;
+}
+
+.tipo_aoleite .leg_aoleite {
+	background: #2c211f;
+	float: left;
+	margin: 40px 40px 40px 40px;
+	padding: 40px 30px 40px 40px;
+}
+
+.tipo_aoleite .leg_aoleite h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #c49358;
+	padding-bottom: 15px;
+}
+
+.tipo_aoleite .leg_aoleite p {
+	font-size: 18px;
+	font-family: Georgia;
+	color: #c49358;
+	font-weight: bold;
+}
+
+/* Lojas */
+
+.interna_lojas {
+	background: url("../img/lojas/bg_lojas.jpg") no-repeat center;
+	background-size: cover;
+}
+
+/* Mapa */
+
+.tipo_mapa {
+	background: url("../img/lojas/mapa.jpg") no-repeat center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	height: 397px;
+}
+
+.tipo_mapa .leg_mapa {
+	background: #2c211f;
+	float: right;
+	margin: 40px 40px 40px 40px;
+	padding: 40px 30px 40px 40px;
+}
+
+.tipo_mapa .leg_mapa h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #c49358;
+	padding-bottom: 15px;
+}
+
+.tipo_mapa .leg_mapa p {
+	font-size: 18px;
+	font-family: Georgia;
+	color: #c49358;
+	font-weight: bold;
+}
+
+/* Slide */
+
+.bg_slide {
+	width: 100%;
+	background: #2c211f;
+	padding: 40px 0 20px 0;
+}
+
+/* Plugin Slide */
+
+.rslides, .rslides_lojas {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+ }
+
+.rslides, .rslides_lojas li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+ }
+
+.rslides, .rslides_lojas li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+ }
+
+.rslides, .rslides_lojas img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  padding-bottom: 5px;
+ }
+
+.rslides_tabs {
+ 	text-align: center;
+ }
+
+.rslides_tabs li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.rslides_tabs .rslides_here a, .rslides_tabs li a:hover {
+	background: #c49358;
+	color: #c49358;
+}
+
+.rslides_tabs li a {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	color: #fff;
+	border-radius: 20px;
+	overflow: hidden;
+	text-indent: -200px;
+}
+
+/* Contato */
+
+.interna_lojas {
+	background: url("../img/contato/bg_contato.jpg") no-repeat center;
+	background-size: cover;
+}
+
+/* Formulario */
+
+.formulario {
+	background: #2c211f;
+	width: 100%;
+	margin-top: 0;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.formula {
+	padding-right: 60px;
+}
+
+.formula label {
+	display: block;
+	color: #c49358;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+.formula input {
+	display: block;
+	width: 100%;
+	border: 3px solid #c49358;
+	color: #2c211f;
+	padding: 7px 10px;
+	outline: none;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.formula textarea {
+	display: block;
+	width: 100%;
+	height: 120px;
+	border: 3px solid #c49358;
+	color: #2c211f;
+	padding: 7px 10px;
+	outline: none;
+	font-size: 14px;
+	margin-bottom: 15px;
+	resize: none;
+}
+
+.formula button {
+	background: none;
+	margin-top: 15px;
+}
+
+.formula button:hover {
+	background: none;
+	color: #fff;
+	border: 3px solid #fff;
+}
+
+.formulario_dados {
+	color: #c49358;
+	font-family: Georgia;
+}
+
+.formulario_dados h3 {
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+
+.formulario_dados li {
+	color: #c49358;
+	font-family: Georgia;
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+
+/* Responsivo */
+
+/*Tablets*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+/* Cafes Home */
+
+.cafes h3 {
+	padding: 15px 0;
+}
+
+.tipo_tradicional .leg_tradicional {
+	background: #2c211f;
+	float: right;
+	margin: 40px 20px 40px 20px;
+	padding: 30px 20px 30px 30px;
+}
+
+.tipo_cappuccino .leg_cappuccino {
+	background: #2c211f;
+	float: left;
+	margin: 40px 20px 40px 20px;
+	padding: 30px 20px 30px 30px;
+}
+
+.tipo_comcanela .leg_comcanela {
+	background: #2c211f;
+	float: right;
+	margin: 40px 20px 40px 20px;
+	padding: 30px 20px 30px 30px;
+}
+
+.tipo_aoleite .leg_aoleite {
+	background: #2c211f;
+	float: left;
+	margin: 40px 20px 40px 20px;
+	padding: 30px 20px 30px 30px;
+}
+
+/* Lojas */
+
+.tipo_mapa .leg_mapa {
+	background: #2c211f;
+	float: right;
+	margin: 40px 20px 40px 20px;
+	padding: 30px 20px 30px 30px;
+}
+
+/* Contato */
+
+.formulario {
+	margin-top: 0;
+}
+
+}
+
+/*Smartphones*/
+@media only screen and (max-width: 767px) {
+
+/* Header */
+
+.header {
+	position: relative;
+}
+
+.header img {
+	margin: 0 auto;
+	margin-bottom: 10px;
+	margin-top: 5px
+}
+
+.header_menu {
+	text-align: center;
+}
+
+.header_menu ul {
+	margin-top: 0px;
+}
+
+.header_menu ul li {
+	display: inline-block;
+	margin: 6px 3px;
+}
+
+.header_menu ul li a {
+	text-decoration: none;
+	border: 3px solid #c49358;
+	color: #c49358;
+	width: 100px;
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 14px;
+	padding: 10px;
+}
+
+.header_menu ul li a:hover {
+	border: 3px solid #fff;
+}
+
+.header_menu ul li a.menu_ativo {
+	border-color: #fff;
+}
+
+/* Introducao */
+
+.intro {
+	background: url("../img/home/bg_mobile.jpg") no-repeat center;
+	margin-top: 0;
+	padding-top: 80px;
+}
+
+.intro h1 {
+	font-size: 46px;
+}
+
+.intro_interna {
+	margin-top: 0;
+}
+
+/* Cafes Home */
+
+.cafes h2 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.cafes ul li {
+	margin-bottom: 20px;
+}
+
+.call {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	margin: 0;
+}
+
+/* Venha Nos Visitar */
+
+.visitar {
+	height: 319px;
+}
+
+.visitar h2{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.visitar .call {
+	margin-top: 40px;
+}
+
+/* Footer */
+
+.footer_contato {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.footer_contato .subtitulo {
+	margin-bottom: 20px;
+}
+
+.footer_contato ul {
+	margin-left: -40px;
+}
+
+.footer_redes {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.footer_redes .subtitulo {
+	margin-bottom: 20px;
+}
+
+.footer_redes ul {
+	padding-left: 0;
+}
+
+.footer_redes img {
+	padding: 0 10px;
+}
+
+.footer_redes ul li {
+	text-align: center;
+	padding-right: 0;
+}
+
+/* Copyright */
+
+.copy {
+	text-align: center;
+	padding: 20px 0;
+	font-size: 13px;
+}
+
+/* Sobre */
+
+.textomenor_sobre {
+	margin-left: 0;
+}
+
+/* Cafes */
+
+.tipo_tradicional {
+	background: url("../img/cafes/bg_tradicional_mobile.jpg") no-repeat center;
+	height: 200px;
+	margin-bottom: 50px;
+}
+
+.tipo_tradicional .leg_tradicional {
+	background: #2c211f;
+	float: right;
+	margin: 200px 0 0 0;
+	padding: 20px 15px 20px 20px;
+}
+
+.tipo_tradicional .leg_tradicional p {
+	font-size: 14px;
+}
+
+.tipo_tradicional .leg_tradicional h2 {
+	font-size: 14px;
+}
+
+.tipo_cappuccino {
+	background: url("../img/cafes/bg_cappuccino_mobile.jpg") no-repeat center;
+	height: 200px;
+	margin-top: 230px;
+}
+
+.tipo_cappuccino .leg_cappuccino {
+	background: #2c211f;
+	float: right;
+	margin: 200px 0 0 0;
+	padding: 20px 15px 20px 20px;
+}
+
+.tipo_cappuccino .leg_cappuccino p {
+	font-size: 14px;
+}
+
+.tipo_cappuccino .leg_cappuccino h2 {
+	font-size: 14px;
+}
+
+.tipo_comcanela {
+	background: url("../img/cafes/bg_comcanela_mobile.jpg") no-repeat center;
+	height: 200px;
+	margin-top: 230px;
+}
+
+.tipo_comcanela .leg_comcanela {
+	background: #2c211f;
+	float: right;
+	margin: 200px 0 0 0;
+	padding: 20px 15px 20px 20px;
+}
+
+.tipo_comcanela .leg_comcanela p {
+	font-size: 14px;
+}
+
+.tipo_comcanela .leg_comcanela h2 {
+	font-size: 14px;
+}
+
+.tipo_aoleite {
+	background: url("../img/cafes/bg_aoleite_mobile.jpg") no-repeat center;
+	height: 200px;
+	margin-top: 230px;
+	margin-bottom: 200px;
+}
+
+.tipo_aoleite .leg_aoleite {
+	background: #2c211f;
+	float: right;
+	margin: 200px 0 0 0;
+	padding: 20px 15px 20px 20px;
+}
+
+.tipo_aoleite .leg_aoleite p {
+	font-size: 14px;
+}
+
+.tipo_aoleite .leg_aoleite h2 {
+	font-size: 14px;
+}
+
+/* Lojas */
+
+.tipo_mapa {
+	background: url("../img/lojas/mapa_mobile.jpg") no-repeat center;
+	margin-top: 30px;
+	margin-bottom: 0;
+	height: 200px;
+}
+
+.tipo_mapa .leg_mapa {
+	background: #2c211f;
+	float: left;
+	margin: 200px 0 30px 0;
+	padding: 20px 15px 20px 20px;
+	display: block;
+}
+
+.tipo_mapa .leg_mapa h2 {
+	font-size: 14px;
+}
+
+.tipo_mapa .leg_mapa p {
+	font-size: 14px;
+}
+
+.bg_slide {
+	clear: both;
+}
+
+/* Contato */
+
+.formulario {
+	margin-top: 0;
+}
+
+.formula {
+	padding-right: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.formulario .formula button {
+	text-align: center;
+}
+
+.formulario_dados {
+	display: none;
+}
+
+}
+
+/* Estilos Gerais */
+
+body {
+		font-family: 'Nunito', sans-serif;
+}
+
+p {
+	font-family: Georgia;
+	font-weight: bold;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.bt {
+	border: 3px solid #c49358;
+	border-radius: 100px;
+	color: #c49358;
+	padding: 10px 31px;
+	font-family: Georgia;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all .5s ease;
+}
+
+.bt:hover {
+	color: #2c211f;
+	border: solid #2c211f;
+}
+
+.subtitulo {
+	font-size: 18px;
+	line-height: 25px;
+	color: #2c211f;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* Header */
+
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #2c211f;
+	padding: 15px 0;
+	z-index: 10;
+}
+
+.header_menu {
+	text-align: right;
+}
+
+.header_menu ul li {
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.header_menu ul li a {
+	text-decoration: none;
+	color: #c49358;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 14px;
+	padding: 10px;
+	transition: all .4s ease;
+}
+
+.header_menu ul li a:hover {
+	color: #fff;
+}
+
+.header_menu ul li a.menu_ativo {
+	color: #fff;
+}
+
+/* Introducao */
+
+.intro {
+	width: 100%;
+	height: 411px;
+	background: url("../img/home/bg.jpg") no-repeat center;
+	margin-top: 110px;
+	text-align: center;
+	padding-top: 113px;
+}
+
+.intro h1 {
+	font-size: 48px;
+	color: #2c211f;
+	text-transform: uppercase;
+}
+
+.quote_externo {
+	margin-bottom: 40px;
+}
+
+.quote_externo p {
+	font-style: italic;
+	color: #2c211f;
+	line-height: 20px;
+	font-size: 14px;
+	margin: 15px 0;
+}
+
+.quote_externo cite {
+	text-transform: uppercase;
+	color: #2c211f;
+	line-height: 20px;
+	font-size: 14px;
+}
+
+/* Intro Interna */
+
+.intro_interna {
+	width: 100%;
+	margin-top: 110px;
+	height: 109px;
+	background-size: cover;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.intro_interna h1 {
+	font-size: 34px;
+	color: #c49358;
+	text-transform: uppercase;
+}
+
+/* Tipos de cafes */
+
+.cafes li {
+	background: #c49358;
+}
+
+.cafes h2 {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.cafes h3 {
+	text-align: center;
+	padding: 15px 86px;
+	color: #2c211f;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.call {
+	text-align: center;
+	clear: both;
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+
+/* Venha Nos Visitar */
+
+.visitar {
+	width: 100%;
+	background: #2c211f;
+}
+
+.visitar h2{
+	color: #c49358;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.visitar .btt:hover {
+	border-color: #fff;
+	color: #fff;
+}
+
+/* Footer */
+
+.footer {
+	width: 100%;
+}
+
+.footer .subtitulo, li {
+	color: #c49358;
+}
+
+.footer li {
+	font-size: 14px;
+}
+
+.footer_contato {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.footer_contato .subtitulo {
+	margin-bottom: 40px;
+}
+
+.footer_contato ul {
+	line-height: 20px;
+	padding-left: 110px;
+}
+
+.footer_redes {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+.footer_redes .subtitulo {
+	margin-bottom: 40px;
+}
+
+.footer_redes ul {
+	padding-left: 50px;
+}
+
+.footer_redes ul li {
+	display: inline-block;
+	padding-right: 50px;
+}
+
+/* Copyright */
+
+.copy {
+	width: 100%;
+	background: #2c211f;
+	padding: 40px 0;
+	color: #c49358;
+	font-size: 14px;
+	font-family: Georgia;
+}
