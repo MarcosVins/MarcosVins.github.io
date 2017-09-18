@@ -1,0 +1,683 @@
+/*RESET*/
+
+body, h1, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Roboto Slab", serif;
+    color: #1d1d1d;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: "roboto";
+    font-weight: bold;
+    color: #1d1d1d;
+    
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*GERAL*/
+
+#wallpaper-home {
+    background: url("../img/wallpaper_home.jpg") no-repeat center;
+}
+
+#wallpaper-projetos {
+    background: url("../img/wallpaper_projetos.jpg") no-repeat center;
+}
+
+#wallpaper-sobre {
+    background: url("../img/wallpaper_sobre.jpg") no-repeat center;
+}
+
+#wallpaper-contato {
+    background: url("../img/wallpaper_contato.jpg") no-repeat center;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+*::selection {
+    background: #1d1d1d; 
+    color: #f2f2f2;
+}
+
+*::-moz-selection {
+    background: #1d1d1d; 
+    color: #f2f2f2;
+}
+
+/*HEADER*/
+
+.menu {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 10px 30px 15px;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li a {
+    font-family: "roboto";
+    font-weight: bold;
+    color: #1d1d1d;
+    padding: 17px 40px;
+    border: 3px solid #1d1d1d;
+    margin-left: 20px;
+    transition: all 0.4s linear;
+    text-align: center;
+    display: block;
+    width: 160px;
+    height: 60px;
+}
+
+.menu ul li a:hover {
+    color: #f2f2f2;
+    background: #1d1d1d;
+}
+
+.menu ul li .selected {
+    color: #f2f2f2;
+    background: #1d1d1d;
+}
+
+/*HOME*/
+
+intro-bg {
+    max-width: 960px;
+    padding: 0;
+    display: flex;
+}
+
+.intro {
+    max-width: 960px;
+    padding: 0 10px 0 10px;
+    margin: 0 auto;
+}
+
+.intro h1 {
+    font-size: 100px;
+    text-transform: uppercase;
+    line-height: 140px;
+}
+
+.oi-bg {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 10px 60px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.oi-bg p {
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    color: #f2f2f2;
+    max-width: 520px;
+    line-height: 27px;
+    padding-bottom: 30px;
+}
+
+.oi-bg a {
+    font-family: "roboto";
+    font-weight: bold;
+    color: #1d1d1d;
+    border: 3px solid #1d1d1d;
+    padding: 17px 40px;
+    margin: 0;
+    align-self: flex-start;
+    transition: all 0.4s linear;
+    text-align: center;
+    display: block;
+    width: 160px;
+    height: 60px;
+}
+
+.oi-bg a:hover {
+    color: #f2f2f2;
+    background: #1d1d1d;
+}
+
+/*PROJETOS*/
+
+.rslides_tabs {
+    display: none;
+}
+
+.slide-bg {
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 60px 150px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.slide {
+    display: flex;
+    padding: 0 0 60px 0;
+    justify-content: center;
+}
+
+.separador {
+    margin: 0;
+}
+
+.slide-bg .slide li {
+    width: 280px;
+    height: 280px;
+    border: 3px solid #1d1d1d;
+}
+
+.prime {
+    padding: 0 20px;
+}
+
+.rslides {
+      position: relative;
+      list-style: none;
+      overflow: hidden;
+      width: 300px;
+      padding: 0;
+      margin: 0;
+    }
+
+    .rslides li {
+        position: absolute;
+        display: block;
+        width: 100%;
+        /*left: 0;
+        top: 0;*/
+        transition: all 0.5s linear;
+    }
+
+    .rslides li:first-child {
+      position: relative;
+      display: block;
+      /*float: left;*/
+    }
+
+    .rslides img {
+      display: block;
+      /*height: auto;*/
+      /*float: left;*/
+      width: 100%;
+      border: 0;
+    }
+    
+    .rslides_tabs {
+        display: inline;
+        width: 340px;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    .rslides_tabs li {
+        display: flex;
+        margin: 20px 300px 0 0;
+    }
+    
+    .rslides_tabs li a {
+        font-size: 18px;
+        display: inline;
+        font-family: "roboto";
+        font-weight: bold;
+        color: #1d1d1d;
+        border: 3px solid #1d1d1d;
+        padding: 17px 40px;
+        margin: 0 11px;
+        transition: all 0.4s linear;
+        min-width: 160px;
+        height: 60px;
+    }
+    
+    .rslides_tabs .rslides_here a {
+        color: #f2f2f2;
+        background: #1d1d1d;
+    }
+    
+    .rslides_tabs li a:hover {
+        color: #f2f2f2;
+        background: #1d1d1d;
+    }
+
+
+/*SOBRE*/
+
+.cita-bg {
+    max-width: 960px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.cita {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px 30px 10px;
+}
+
+.cita-bg .cita .foto {
+    flex-grow: 0;
+    padding-right: 70px;
+}
+
+.cita-bg p {
+    max-width: 520px;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    color: #f2f2f2;
+    line-height: 27px; 
+}
+
+.cita-bg p cite {
+    font-style: italic;
+}
+
+.bg-info {
+    max-width: 960px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.bg-info .info-sobre {
+    display: flex;
+}
+
+.bg-info .pessoal-info ul {
+    max-width: 340px;
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    color: #f2f2f2;
+    line-height: 27px;
+}
+
+.bg-info .valores-info p {
+    max-width: 520px;
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    color: #f2f2f2;
+    line-height: 27px;
+    text-align: center;
+}
+
+.pessoal-info {
+    padding: 0 70px 0 10px;
+}
+
+.valores-info {
+    padding-right: 10px;
+}
+
+.ola-bg {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.ola-bg a {
+    font-family: "roboto";
+    font-weight: bold;
+    color: #1d1d1d;
+    border: 3px solid #1d1d1d;
+    padding: 17px 30px;
+    margin: 30px 10px 60px 10px;
+    align-self: flex-start;
+    transition: all 0.4s linear;
+    text-align: center;
+    display: block;
+    width: 160px;
+    height: 60px;
+}
+
+.ola-bg a:hover {
+    color: #f2f2f2;
+    background: #1d1d1d;
+}
+
+/*CONTATO*/
+
+.contato-bg {
+    max-width: 960px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.contato {
+    max-width: 340px;
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    color: #f2f2f2;
+    line-height: 27px;
+    padding: 0px 0 250px 10px; 
+}
+
+.contato a {
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    color: #f2f2f2;
+}
+
+/*RESPONSIVO*/
+
+/*CELULARES*/
+@media only screen and (max-width: 767px) {
+    
+    #wallpaper-home {
+        background: url("../img/wallpaper_home.jpg") no-repeat top;
+    }
+    
+    #wallpaper-projetos {
+        background: url("../img/wallpaper_projetos.jpg") no-repeat top;
+    }
+    
+    #wallpaper-sobre {
+        background: url("../img/wallpaper_sobre.jpg") no-repeat top;
+    }
+    
+    #wallpaper-contato {
+        background: url("../img/wallpaper_contato.jpg") no-repeat top;
+    }
+    
+    /*NAVEGACAO*/
+    
+    .menu {
+        max-width: 340px;
+        flex-flow: column;
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    .menu img {
+        padding: 20px 0;
+    }
+
+    .menu ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu ul li a {
+        font-family: "roboto";
+        font-weight: bold;
+        color: #1d1d1d;
+        border: 3px solid #1d1d1d;
+        padding: 7px 0;
+        margin: 0;
+        width: 107px;
+        height: 40px;
+        text-align: center;
+    }
+    
+    .menu ul li .meio {
+        margin: 0 11px;
+    }
+    
+    /*HOME*/
+    
+    intro-bg {
+        max-width: 340px;
+        padding: 0 11px 0 11px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .intro {
+        max-width: 340px;
+        padding: 0;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+
+    
+    .intro h1 {
+        width: 340px;
+        font-size: 55px;
+        text-transform: uppercase;
+        line-height: 77px;
+        padding: 30px 0 20px 0;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .oi-bg {
+        max-width: 340px;
+        padding: 0;
+        padding-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .oi-bg p {
+        padding-bottom: 15px;
+    }
+
+    .oi-bg a {
+        font-family: "roboto";
+        font-weight: bold;
+        color: #1d1d1d;
+        border: 3px solid #1d1d1d;
+        padding: 7px 0;
+        margin: 0 auto;
+        width: 107px;
+        height: 40px;
+        text-align: center;
+    }
+    
+    /*PROJETOS*/
+    
+    .slide-bg {
+        max-width: 340px;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0 auto;
+        flex-flow: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slide {
+        max-width: 340px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0 60px 0;
+    }
+
+    .separador {
+        margin: 0;
+    }
+
+    .slide-bg .slide li {
+        width: 280px;
+        height: 280px;
+        border: 3px solid #1d1d1d;
+        margin-bottom: 0;
+    }
+    
+    .prime {
+    padding: 0 20px;
+}
+    
+    .rslides {
+      position: relative;
+      list-style: none;
+      overflow: hidden;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+    .rslides li {
+        position: absolute;
+        display: none;
+        width: 100%;
+        /*left: 0;
+        top: 0;*/
+        transition: all 0.5s linear;
+    }
+
+    .rslides li:first-child {
+      position: relative;
+      display: block;
+      /*float: left;*/
+    }
+
+    .rslides img {
+      display: block;
+      /*height: auto;*/
+      /*float: left;*/
+      width: 100%;
+      border: 0;
+    }
+    
+    .rslides_tabs {
+        display: inline;
+        width: 340px;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    .rslides_tabs li {
+        display: inline;
+        margin: 20px 0 0 0;
+        
+    }
+    
+    .rslides_tabs li a {
+        font-size: 18px;
+        display: inline;
+        font-family: "roboto";
+        font-weight: bold;
+        color: #1d1d1d;
+        border: 3px solid #1d1d1d;
+        padding: 0 31px;
+        margin: 0 11px;
+        transition: all 0.4s linear;
+    }
+    
+    .rslides_tabs .rslides_here a {
+        color: #f2f2f2;
+        background: #1d1d1d;
+    }
+    
+    .rslides_tabs li a:hover {
+        color: #f2f2f2;
+        background: #1d1d1d;
+    }
+    
+    /*SOBRE*/
+    
+    .cita-bg {
+        max-width: 340px;
+    }
+
+    .cita {
+        padding: 0;
+        margin: 0 auto;
+        flex-flow: column;
+    }
+
+    .cita-bg .cita .foto {
+        max-width: 224px;
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+
+    .cita-bg p {
+        display: none;
+    }
+    
+    .bg-info .info-sobre {
+        max-width: 340px;
+        padding: 0;
+        margin: 0 auto;
+        display: inline;
+        flex-flow: column;
+    }
+
+    .bg-info .pessoal-info ul {
+        max-width: 340px;
+        margin-bottom: 30px;
+        
+    }
+
+    .bg-info .valores-info {
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+    .pessoal-info {
+        padding: 0;
+        
+    }
+
+    .bg-info .valores-info p {
+        max-width: 520px;
+        font-family: "Roboto Slab", serif;
+        font-size: 18px;
+        color: #f2f2f2;
+        line-height: 27px;
+        text-align: left;
+        padding-bottom: 15px;
+    }
+
+    .ola-bg {
+        max-width: 340px;
+        padding-bottom: 15px;
+    }
+
+    .ola-bg a {
+        font-family: "roboto";
+        font-weight: bold;
+        color: #1d1d1d;
+        border: 3px solid #1d1d1d;
+        padding: 7px 0;
+        margin: 0 auto;
+        width: 107px;
+        height: 40px;
+        text-align: center;
+    }
+    
+    /*CONTATO*/
+    
+    .contato-bg {
+        max-width: 340px;
+    }
+
+    .contato {
+        max-width: 340px;
+        padding: 0 0 250px 0; 
+    }
+
+}
